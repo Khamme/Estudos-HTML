@@ -1,0 +1,55 @@
+body{
+    font-size: 1.7em;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black ;
+}
+#ativado:active{
+    color: aqua;
+}
+#mouse:hover{
+    background-color: brown;
+}
+.blank{
+    height: 80px;
+    width: 80px;
+    display: inline-flex;
+    margin: 10px;
+    background-color: indianred;
+}
+.blank:empty{
+    background-color: aquamarine;
+    display: inline-flex;
+}
+.input{
+    margin-bottom: 20px;
+    width: 250px;
+}
+#ativo:active{color: lime;}
+#hover:hover{color: palevioletred;}
+#visited:visited{color:darkgoldenrod}
+#nome:focus{color: blue;}
+#nome2:focus{color: rgb(243, 91, 116);}
+
+.ultimos:invalid{
+    background-color: rgba(170, 74, 74, 0.425);
+}
+.ultimos:valid{
+    background-color: rgba(0, 128, 0, 0.233);
+}
+.ultimos:required{
+    border: 3px solid rgb(110, 0, 0);
+}
+
